@@ -1,0 +1,85 @@
+2. insert at least 5 rows of values in each table
+    users
+    codekata
+    attendance
+    topics
+    tasks
+    company_drives
+    mentors
+    students_activated_courses
+    courses
+
+
+<---------------Users--------------->
+
+INSERT INTO users(username,email,mentorid) VALUES("Amir","amir@gmail.com",1),
+                                                 ("Ganesh","ganesh@gmail.com",2),
+                                                 ("Jaswanth","jaswanth@gmail.com",3),
+                                                 ("Mani","mani@gmail.com",4),
+                                                 ("Vignesh","vignesh@gmail.com",5);
+
+<---------------Codekata--------------->
+
+INSERT INTO codekata(number_of_problems,string_problems,userid) VALUES(20,15,1),
+                                                                      (40,25,2),
+                                                                      (60,35,3),
+                                                                      (80,45,4),
+                                                                      (100,55,5);
+
+<---------------Attendance--------------->
+
+INSERT INTO attendance(userid,courseid,topicsid,attended) VALUES(1,2,3,false),
+                                                                (2,3,4,true),
+                                                                (3,4,5,true),
+                                                                (4,5,6,true),
+                                                                (5,6,7,false);
+
+<---------------Topics--------------->
+
+INSERT INTO topics(courseid, topic) VALUES(1, 'HTML'),
+                                          (2, 'JavaScript'),
+                                          (3, 'Node.js'),
+                                          (4, 'React'),
+                                          (5, 'MongoDB');
+
+<---------------Tasks--------------->
+
+INSERT INTO tasks(courseid, topic) VALUES(1, 'HTML Task'),
+                                         (2, 'JavaScript Task'),
+                                         (3, 'Node.js Task'),
+                                         (4, 'React Task'),
+                                         (5, 'MongoDB Task');
+
+<---------------CompanyDrives--------------->
+
+INSERT INTO company_drives(userid,company) VALUES(1, "Microsoft"),
+                                                 (2, "Google")
+                                                 (3, "Amazon    ")
+                                                 (4, "Zoho");
+                                                 (5, "TCS")
+
+<---------------Mentors--------------->
+
+INSERT INTO mentors(mentorname,mentoremail) VALUES("Vijay","vijay@gmail.com"),
+                                                  ("Suresh","suresh@gmail.com"),
+                                                  ("Vikranth","vikranth@gmail.com"),
+                                                  ("Uma","uma@gmail.com"),
+                                                  ("Arjun","arjun@gmail.com");
+
+
+<---------------StudentsActivatedCourses--------------->
+
+INSERT INTO students_activated_courses(userid,courseid) VALUES(1,2),
+                                                              (2,3),
+                                                              (3,4),
+                                                              (4,5),
+                                                              (5,6);
+
+
+<---------------Courses--------------->    
+
+INSERT INTO courses(coursename) VALUES("HTML"),
+                                      ("CSS"),
+                                      ("Bootstrap"),
+                                      ("JavaScript"),
+                                      ("ReactJS");
