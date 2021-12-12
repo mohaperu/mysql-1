@@ -54,7 +54,7 @@ INSERT INTO tasks(courseid, topic) VALUES(1, 'HTML Task'),
 
 INSERT INTO company_drives(userid,company) VALUES(1, "Microsoft"),
                                                  (2, "Google")
-                                                 (3, "Amazon    ")
+                                                 (3, "Amazon")
                                                  (4, "Zoho");
                                                  (5, "TCS")
 
